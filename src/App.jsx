@@ -1,13 +1,16 @@
-
-import './App.css'
+import { Outlet } from "react-router";
+import Navbar from "./components/Navbar/Navbar";
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <div className='text-2xl'>hello</div>
+      <Navbar />
+      <main>
+        <Outlet />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
