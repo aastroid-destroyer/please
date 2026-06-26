@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import Logo from "../Logo/Logo";
 
 const navLinks = [
   { label: "Home", to: "/" },
@@ -50,7 +51,7 @@ const Navbar = () => {
 
         {/* Brand */}
         <NavLink to="/" className="btn btn-ghost text-xl font-bold tracking-tight">
-          ⚡ ZapShift
+          <Logo></Logo>
         </NavLink>
       </div>
 
