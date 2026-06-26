@@ -6,11 +6,13 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
-      <Footer />
+      <div className="flex min-h-screen flex-col">
+        <Navbar />
+        <main className="flex-1 w-11/12 mx-auto">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
