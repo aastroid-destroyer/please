@@ -10,6 +10,7 @@ const banners = [banner1, banner2, banner3];
 const Banner = () => {
   return (
     <Carousel
+      className="mt-10 mb-10"
       autoPlay
       infiniteLoop
       interval={3000}
