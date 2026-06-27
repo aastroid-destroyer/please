@@ -3,7 +3,7 @@ import Logo from "../Logo/Logo";
 
 const navLinks = [
   { label: "Home", to: "/" },
-  { label: "Shifts", to: "/shifts" },
+  { label: "Coverage", to: "/coverage" },
   { label: "Dashboard", to: "/dashboard" },
   { label: "Contact", to: "/contact" },
 ];
